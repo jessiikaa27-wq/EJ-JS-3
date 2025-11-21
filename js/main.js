@@ -41,4 +41,55 @@ document.addEventListener('DOMContentLoaded', () => {
             pixelBot.style.bottom = botBottom + px;
         }, 20);
     }
+
+    funtion generarObstaculo(){
+        if(gameOver){
+            return;
+        }
+        let obstaclePosition = gameWith;
+        const obstacle = document.createElement(´div´);
+        obstacle.classList.add(´obstaculo´);
+        juegoContenedor.appendChild(obstacle);
+
+        let randomTime = Math.random() * 2000+1000;
+
+        const moverObstaculo = setInterval(() => {
+            
+        });
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 });
